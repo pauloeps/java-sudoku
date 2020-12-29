@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="67cm" height="59cm" viewBox="1321 -152 1338 1164" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="2226.63" y="-7.99019" width="407.046" height="456.757"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2226.63" y="-7.99019" width="407.046" height="456.757"/>
+    <rect style="fill: #ffffff" x="2226.63" y="-27.9902" width="158" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2226.63" y="-27.9902" width="158" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2228.63" y="-12.9902">sudoku.problemdomain</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2306.04" y="176.974" width="210.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2306.04" y="176.974" width="210.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2411.14" y="195.974">Coordinates</text>
+    <rect style="fill: #ffffff" x="2306.04" y="204.974" width="210.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2306.04" y="204.974" width="210.2" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2309.04" y="218.974">-x: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2309.04" y="234.974">-y: int</text>
+    <rect style="fill: #ffffff" x="2306.04" y="240.974" width="210.2" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2306.04" y="240.974" width="210.2" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2309.04" y="254.974">+getX(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2309.04" y="270.974">+getY(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2309.04" y="286.974">+equals(o:Object): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2309.04" y="302.974">+hashCode(): int</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2367.87" y="-107.864" width="115.45" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2367.87" y="-107.864" width="115.45" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2425.6" y="-91.8637">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2425.6" y="-72.8637">Serializable</text>
+    <rect style="fill: #ffffff" x="2367.87" y="-63.8637" width="115.45" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2367.87" y="-63.8637" width="115.45" height="8"/>
+    <rect style="fill: #ffffff" x="2367.87" y="-55.8637" width="115.45" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2367.87" y="-55.8637" width="115.45" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2304.78" y="32.871" width="241" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2304.78" y="32.871" width="241" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2425.28" y="51.871">SudokuGame</text>
+    <rect style="fill: #ffffff" x="2304.78" y="60.871" width="241" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2304.78" y="60.871" width="241" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2307.78" y="74.871">-gameState: GameState</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2307.78" y="90.871">-gridState: int[][]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2307.78" y="106.871">+GRID_BOUNDARY: int</text>
+    <rect style="fill: #ffffff" x="2304.78" y="112.871" width="241" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2304.78" y="112.871" width="241" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2307.78" y="126.871">+getGameState(): GameState</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2307.78" y="142.871">+getCopyOfGridState(): int[][]</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2256.98" y="642.236" width="400.802" height="128"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2256.98" y="642.236" width="400.802" height="128"/>
+    <rect style="fill: #ffffff" x="2256.98" y="622.236" width="127.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2256.98" y="622.236" width="127.2" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2258.98" y="637.236">sudoku.constants</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2269.98" y="653.236" width="109.9" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2269.98" y="653.236" width="109.9" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2324.93" y="669.236">&lt;&lt;enum&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2324.93" y="688.236">GameState</text>
+    <rect style="fill: #ffffff" x="2269.98" y="697.236" width="109.9" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2269.98" y="697.236" width="109.9" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2272.98" y="711.236"> COMPLETE</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2272.98" y="727.236"> ACTIVE</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2272.98" y="743.236"> NEW</text>
+    <rect style="fill: #ffffff" x="2269.98" y="749.236" width="109.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2269.98" y="749.236" width="109.9" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="2425.6,-29.6276 2425.6,6.94062e-005 2425.28,6.94062e-005 2425.28,31.8638 "/>
+    <polygon style="fill: #ffffff" points="2433.6,-29.6276 2425.6,-45.6276 2417.6,-29.6276 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2433.6,-29.6276 2425.6,-45.6276 2417.6,-29.6276 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2306.69" y="338.209" width="302.6" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2306.69" y="338.209" width="302.6" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2457.99" y="354.209">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2457.99" y="373.209">IStorage</text>
+    <rect style="fill: #ffffff" x="2306.69" y="382.209" width="302.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2306.69" y="382.209" width="302.6" height="8"/>
+    <rect style="fill: #ffffff" x="2306.69" y="390.209" width="302.6" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2306.69" y="390.209" width="302.6" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2309.69" y="404.209">+updateGameData(game:SudokuGame): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2309.69" y="420.209">+getGameData(): SudokuGame</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2465.86" y="653.115" width="179.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2465.86" y="653.115" width="179.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2555.56" y="672.115">Messages</text>
+    <rect style="fill: #ffffff" x="2465.86" y="681.115" width="179.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2465.86" y="681.115" width="179.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2468.86" y="695.115">+GAME_COMPLETE: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2468.86" y="711.115">+ERROR: string</text>
+    <rect style="fill: #ffffff" x="2465.86" y="717.115" width="179.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2465.86" y="717.115" width="179.4" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2387.78" y="652.822" width="71.6" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2387.78" y="652.822" width="71.6" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2423.58" y="668.822">&lt;&lt;enum&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2423.58" y="687.822">Rows</text>
+    <rect style="fill: #ffffff" x="2387.78" y="696.822" width="71.6" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2387.78" y="696.822" width="71.6" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2390.78" y="710.822"> TOP</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2390.78" y="726.822"> MIDDLE</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2390.78" y="742.822"> BOTTOM</text>
+    <rect style="fill: #ffffff" x="2387.78" y="748.822" width="71.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2387.78" y="748.822" width="71.6" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2292.9" y="522.978" width="262" height="74"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2292.9" y="522.978" width="262" height="74"/>
+    <rect style="fill: #ffffff" x="2292.9" y="502.978" width="142.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2292.9" y="502.978" width="142.6" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2294.9" y="517.978">sudoku.persistence</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2373.9" y="532.478" width="167.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2373.9" y="532.478" width="167.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2457.75" y="551.478">LocalStorageImpl</text>
+    <rect style="fill: #ffffff" x="2373.9" y="560.478" width="167.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2373.9" y="560.478" width="167.7" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2376.9" y="574.478">-GAME_DATA: File</text>
+    <rect style="fill: #ffffff" x="2373.9" y="580.478" width="167.7" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2373.9" y="580.478" width="167.7" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="2457.99,444.445 2457.99,486.84 2457.75,486.84 2457.75,531.471 "/>
+    <polygon style="fill: #ffffff" points="2465.99,444.445 2457.99,428.445 2449.99,444.445 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2465.99,444.445 2457.99,428.445 2449.99,444.445 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1322.7" y="677.317" width="912.89" height="333.408"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1322.7" y="677.317" width="912.89" height="333.408"/>
+    <rect style="fill: #ffffff" x="1322.7" y="657.317" width="181.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1322.7" y="657.317" width="181.1" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1324.7" y="672.317">sudoku.computationlogic</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1846.32" y="726.835" width="325.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1846.32" y="726.835" width="325.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2009.17" y="745.835">GameGenerator</text>
+    <rect style="fill: #ffffff" x="1846.32" y="754.835" width="325.7" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1846.32" y="754.835" width="325.7" height="8"/>
+    <rect style="fill: #ffffff" x="1846.32" y="762.835" width="325.7" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1846.32" y="762.835" width="325.7" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1849.32" y="776.835">+getNewGameGrid(): int[][]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1849.32" y="792.835">-unsolveGame(solvedGame:int[][]): int[][]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1849.32" y="808.835">-getSolvedGame(): int[][]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1849.32" y="824.835">-clearArray(newGrid:int[][]): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1339.5" y="690.175" width="479.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1339.5" y="690.175" width="479.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1579.35" y="709.175">GameLogic</text>
+    <rect style="fill: #ffffff" x="1339.5" y="718.175" width="479.7" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1339.5" y="718.175" width="479.7" height="8"/>
+    <rect style="fill: #ffffff" x="1339.5" y="726.175" width="479.7" height="164"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1339.5" y="726.175" width="479.7" height="164"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1342.5" y="740.175">+getNewGame(): SudokuGame</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1342.5" y="756.175">+checkForCompletion(grid:int[][]): GameState</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1342.5" y="772.175">+sudokuIsInvalid(grid:int[][]): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1342.5" y="788.175">-rowsAreInvalid(grid:int[][]): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1342.5" y="804.175">-columnsAreInvalid(grid:int[][]): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1342.5" y="820.175">-squaresAreInvalid(grid:int[][]): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1342.5" y="836.175">-rowsOfSquaresIsInvalid(value:Rows,grid:int[][]): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1342.5" y="852.175">-squareIsInvalid(xIndex:int,yIndex:int,grid:int[][]): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1342.5" y="868.175">+collectionHasRepeats(collection:List&lt;Integer&gt;): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1342.5" y="884.175">+tilesAreNotFilled(grid:int[][]): boolean</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1417.17" y="916.49" width="402.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1417.17" y="916.49" width="402.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1618.52" y="935.49">SudokuSolver</text>
+    <rect style="fill: #ffffff" x="1417.17" y="944.49" width="402.7" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1417.17" y="944.49" width="402.7" height="8"/>
+    <rect style="fill: #ffffff" x="1417.17" y="952.49" width="402.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1417.17" y="952.49" width="402.7" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1420.17" y="966.49">+puzzleIsSolvable(puzzle:int[][]): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1420.17" y="982.49">-typeWriterEnumerate(puzzle:int[][]): Coordinates[]</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1844.2" y="859.78" width="364.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1844.2" y="859.78" width="364.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2026.3" y="878.78">SudokuUtilities</text>
+    <rect style="fill: #ffffff" x="1844.2" y="887.78" width="364.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1844.2" y="887.78" width="364.2" height="8"/>
+    <rect style="fill: #ffffff" x="1844.2" y="895.78" width="364.2" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1844.2" y="895.78" width="364.2" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1847.2" y="909.78">+copySudokuArrayValues(oldArray:int[][],</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1847.2" y="925.78">                       newArray:int[][]): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1847.2" y="941.78">+copyToNewArray(oldArray:int[][]): int[][]</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1325.13" y="-130.782" width="885.411" height="689.843"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1325.13" y="-130.782" width="885.411" height="689.843"/>
+    <rect style="fill: #ffffff" x="1325.13" y="-150.782" width="158" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1325.13" y="-150.782" width="158" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1327.13" y="-135.782">sudoku.userinterface</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1853.96" y="-73.8565" width="341.1" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1853.96" y="-73.8565" width="341.1" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2024.51" y="-57.8565">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2024.51" y="-38.8565">EventListener</text>
+    <rect style="fill: #ffffff" x="1853.96" y="-29.8565" width="341.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1853.96" y="-29.8565" width="341.1" height="8"/>
+    <rect style="fill: #ffffff" x="1853.96" y="-21.8565" width="341.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1853.96" y="-21.8565" width="341.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1856.96" y="-7.85651">+onSudokuInput(x:int,y:int,input:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1856.96" y="8.14349">+onDialogClick(): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1414.36" y="-108.273" width="333.4" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1414.36" y="-108.273" width="333.4" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1581.06" y="-92.2732">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1581.06" y="-73.2732">View</text>
+    <rect style="fill: #ffffff" x="1414.36" y="-64.2732" width="333.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1414.36" y="-64.2732" width="333.4" height="8"/>
+    <rect style="fill: #ffffff" x="1414.36" y="-56.2732" width="333.4" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1414.36" y="-56.2732" width="333.4" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1417.36" y="-42.2732">+setListener(listener:EventListener): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1417.36" y="-26.2732">+updateSquare(x:int,y:int,input:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1417.36" y="-10.2732">+updateBoard(game:SudokuGame): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1417.36" y="5.7268">+showDialog(message:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1417.36" y="21.7268">+showError(message:String): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1852.05" y="343.793" width="325.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1852.05" y="343.793" width="325.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2014.9" y="362.793">SudokuTextField</text>
+    <rect style="fill: #ffffff" x="1852.05" y="371.793" width="325.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1852.05" y="371.793" width="325.7" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1855.05" y="385.793">-x: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1855.05" y="401.793">-y: int</text>
+    <rect style="fill: #ffffff" x="1852.05" y="407.793" width="325.7" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1852.05" y="407.793" width="325.7" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1855.05" y="421.793">+getX(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1855.05" y="437.793">+getY(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1855.05" y="453.793">+replaceText(i:int,i1:int,s:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1855.05" y="469.793">+replaceSelection(s:String): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1967.97" y="600.266" width="93.95" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1967.97" y="600.266" width="93.95" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2014.95" y="619.266">TextField</text>
+    <rect style="fill: #ffffff" x="1967.97" y="628.266" width="93.95" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1967.97" y="628.266" width="93.95" height="8"/>
+    <rect style="fill: #ffffff" x="1967.97" y="636.266" width="93.95" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1967.97" y="636.266" width="93.95" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1881.71" y="168.242" width="280.823" height="69.0276"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1881.71" y="168.242" width="280.823" height="69.0276"/>
+    <rect style="fill: #ffffff" x="1881.71" y="148.242" width="204.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1881.71" y="148.242" width="204.2" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1883.71" y="163.242">sudoku.userinterface.logic</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1983.27" y="183.502" width="123.85" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1983.27" y="183.502" width="123.85" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2045.19" y="202.502">ControlLogic</text>
+    <rect style="fill: #ffffff" x="1983.27" y="211.502" width="123.85" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1983.27" y="211.502" width="123.85" height="8"/>
+    <rect style="fill: #ffffff" x="1983.27" y="219.502" width="123.85" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1983.27" y="219.502" width="123.85" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="2024.51,32.3796 2024.51,83.2092 2107.12,83.2092 2107.12,183.502 "/>
+    <polygon style="fill: #ffffff" points="2032.51,32.3796 2024.51,16.3796 2016.51,32.3796 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2032.51,32.3796 2024.51,16.3796 2016.51,32.3796 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1342.92" y="72.9178" width="472" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1342.92" y="72.9178" width="472" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1578.92" y="91.9178">UserInterfaceImpl</text>
+    <rect style="fill: #ffffff" x="1342.92" y="100.918" width="472" height="164"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1342.92" y="100.918" width="472" height="164"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="114.918">-stage: Stage</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="130.918">-root: Group</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="146.918">-textFieldCoordinates: HashMap&lt;Coordinates, SudokuTextField&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="162.918">-WINDOW_Y: double = 732</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="178.918">-WINDOW_X: double = 668</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="194.918">-BOARD_PADDING: double = 50</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="210.918">-BOARD_X_AND_Y: double = 576</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="226.918">-WINDOW_BACKGROUND_COLOR: Color</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="242.918">-BOARD_BACKGROUND_COLOR: Color</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="258.918">-SUDOKU: String</text>
+    <rect style="fill: #ffffff" x="1342.92" y="264.918" width="472" height="276"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1342.92" y="264.918" width="472" height="276"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="278.918">-initializeUserInterface(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="294.918">-drawGridLines(root:Group): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="310.918">-getLine(x:double,y:double,height:double,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="326.918">         width:double): Rectangle</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="342.918">-drawTextFields(root:Group): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="358.918">-styleSudokuTile(tile:SudokuTextField,x:double,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="374.918">                 y:double): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="390.918">-drawSudokuBoard(root:Group): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="406.918">-drawTitle(root:Group): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="422.918">-drawBackground(root:Group): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="438.918">+setListener(listener:EventListener): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="454.918">+updateSquare(x:int,y:int,input:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="470.918">+updateBoard(game:SudokuGame): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="486.918">+showDialog(message:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="502.918">+showError(message:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="518.918">+handle(event:KeyEvent): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.92" y="534.918">+handleInput(value:int,source:Object): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1581.06,45.9629 1581.06,58.3223 1578.92,58.3223 1578.92,72.9178 "/>
+    <polygon style="fill: #ffffff" points="1589.06,45.9629 1581.06,29.9629 1573.06,45.9629 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1589.06,45.9629 1581.06,29.9629 1573.06,45.9629 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2014.95,582.03 2014.95,551.038 2014.9,551.038 2014.9,476.777 "/>
+    <polygon style="fill: #ffffff" points="2006.95,582.03 2014.95,598.03 2022.95,582.03 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2006.95,582.03 2014.95,598.03 2022.95,582.03 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2257.69" y="808.14" width="296" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2257.69" y="808.14" width="296" height="100"/>
+    <rect style="fill: #ffffff" x="2257.69" y="788.14" width="134.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2257.69" y="788.14" width="134.9" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2259.69" y="803.14">sudoku.buildlogic</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2277.69" y="826.776" width="256.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2277.69" y="826.776" width="256.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2405.89" y="845.776">SudokuBuildLogic</text>
+    <rect style="fill: #ffffff" x="2277.69" y="854.776" width="256.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2277.69" y="854.776" width="256.4" height="8"/>
+    <rect style="fill: #ffffff" x="2277.69" y="862.776" width="256.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2277.69" y="862.776" width="256.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2280.69" y="876.776">+build(userInterface:View): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2258.66" y="927.764" width="256.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2258.66" y="927.764" width="256.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2386.86" y="946.764">SudokuApplication</text>
+    <rect style="fill: #ffffff" x="2258.66" y="955.764" width="256.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2258.66" y="955.764" width="256.4" height="8"/>
+    <rect style="fill: #ffffff" x="2258.66" y="963.764" width="256.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2258.66" y="963.764" width="256.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2261.66" y="977.764">+start(primaryStage:Stage): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2261.66" y="993.764">+main(): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="2548.05" y="936.545" width="110.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2548.05" y="936.545" width="110.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2603.1" y="955.545">Main</text>
+    <rect style="fill: #ffffff" x="2548.05" y="964.545" width="110.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2548.05" y="964.545" width="110.1" height="8"/>
+    <rect style="fill: #ffffff" x="2548.05" y="972.545" width="110.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2548.05" y="972.545" width="110.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2551.05" y="986.545">+main(): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2107.12,197.502 2199.4,197.502 2199.4,360.209 2302.22,360.209 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2288.46,368.209 2304.46,360.209 2288.46,352.209 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="2286.69" y="357.209"> storage</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="2286.69" y="373.209">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1983.27,197.502 1835.03,197.502 1835.03,-14.2732 1752.23,-14.2732 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1766,-22.2732 1750,-14.2732 1766,-6.2732 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1767.76" y="-17.2732"> view</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1767.76" y="-1.2732">1</text>
+  </g>
+</svg>
